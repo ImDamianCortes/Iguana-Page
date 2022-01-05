@@ -1,0 +1,133 @@
+body {
+
+    /*Reseteando valores para navegador*/
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+    /*definiendo la familia de la fuente*/
+    font-family: 'Raleway', sans-serif;
+
+    /*definiendo el color de fondo del cuerpo*/
+    background-color: #000000;
+
+    /*Alineando el texto en el centro*/
+    text-align: center;
+  }
+
+/*color de textos*/
+h1, h2, p {
+    
+    /*definiendo color blanco*/
+    color: #FFFFFF;
+
+}
+
+/*modificando H1 "Iguanas*/
+header h1 {
+
+    /*peso de la fuente*/
+    font-weight: 500;
+
+    /*tamaño de la fuente*/
+    font-size: 50px;
+
+    /*margen 0 para header h1*/
+    margin: 0;
+
+    /*definiendo padding*/
+    padding: 20px;
+
+
+}
+/*definiendo tamaño de imagen bg-header*/
+.bg-header img {
+    width: 100vw;
+}
+
+/*modificando desc-section */
+.desc-section {
+    /*padding*/
+    padding: 50px;
+}
+
+/*centrando la secc*/
+.centrado {
+    margin: 0 auto;    
+}
+
+/*alineando con bloques en linea y centrando verticalmente*/
+.desc-section_texto, .desc-section_iguana-1 {
+    vertical-align: middle;
+    display: inline-block;
+
+}
+
+.desc-section_texto {
+
+    align-items: center;
+
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+    width: 40%;
+
+    text-align: left;
+
+    font-size: 24px;
+    font-weight: 300;
+    
+}
+
+.desc-section_texto p {
+}
+
+.desc-section_iguana-1 {
+
+    padding-left: 100px;
+
+    width: 50%;
+
+}
+
+.icons-section {
+    background-color: #1E1A13;
+    padding: 60px 0;
+    text-align: center;
+    font-weight: 300;
+}
+
+.centrado h2 {
+    font-size: 40px ;
+}
+
+.centrado article {
+    display: inline-block;
+    font-size: 24px;
+    width: 33%;
+    height: 200px;
+    color: #FFFFFF;
+    vertical-align: middle;
+}
+
+.seccion-3 {
+    padding: 80px 0;
+}
+
+.centrado_img {
+    width: 20%;
+    display: inline-block;
+    margin: 0 5px;
+}
+.centrado_img img {
+    width: 95%;
+    height: 202px;
+}
+
+footer {
+    font-size: 20px;
+    font-weight: 300;
+    padding: 40px 0;
+    background-color: #1E1A13;
+}
